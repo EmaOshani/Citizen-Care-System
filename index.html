@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ccs polonnaruwa</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <link rel="stylesheet" href="bs-stepper.min.css">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
+
+</head>
+<body>
+    
+    <header id="nav_navbar">
+        <!-- <a href="#" class="logo">Logo</a> -->
+        <a class="nav_navbar-brand" href="#">
+            <img src="images/ccslogo2.png" alt="Logo" class="nav_main" id="logo">
+            <img src="images/slglogo.png" alt="Logo_mini" class="nav_sub" id="logo_mini">
+        </a> 
+        <!-- <div class="title"><h4>Workflow Manager</h4></div> -->
+        <!-- <div class="lineWrap"><div class="line"></div></div>   -->
+        <div class="nav_group">
+            <ul class="nav_navigation"> 
+                <!-- <li><a href="#">Workflow manager</a></li> -->
+                <li><a href="#">New Request</a></li>
+                <li><a href="#">My Actions</a></li>
+                <li><a href="#">Forward Requests</a></li>
+                <li><a href="#">My Requests</a></li>
+            </ul>
+            <ion-icon name="menu-outline" class="nav_menuToggle"></ion-icon>
+            <!-- use image -->
+          
+            <div class="nav_profile_details">
+                <div class="nav_menu">
+                    <div class="nav_user-info">
+                        <img src="images/slt_mini_white.png" class="nav_user-pic" alt="">
+                        <h3>Digital Platforms<br><span>Software Developer</span</h3>
+                    </div>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile.png"><a href="#">Profile</a></li>
+                        <li><img src="images/setting.png"><a href="#">Settings</a></li>
+                        <li><img src="images/logout.png"><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+<!-- finish navbar -->
+
+
+    <!-- dropdown -->
+  <div class="container pt-4 card-top card_frame mt-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2">
+        <div class="col">
+            <div class="card details rounded shadow title">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <label for="selectTotal" class="form-label">Select Total:</label>
+                        <select class="form-select" id="selectTotal">
+                            <option value="success">Success</option>
+                            <option value="unsuccess">UnSuccess</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="col">
+                    <div class="card details rounded shadow title">
+                        <div class="card-header rounded-top">
+                            <div class="row">
+                                <label for="selectTotal" class="form-label">Select Total:</label>
+                                <select class="form-select" id="selectTotal">
+                                    <option value="success">Success</option>
+                                    <option value="unsuccess">UnSuccess</option>
+                                    <!-- Add more options as needed -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card details rounded shadow title">
+                        <div class="card-header rounded-top">
+                            <div class="row">
+                                <label for="selectTotal" class="form-label">Select Total:</label>
+                                <select class="form-select" id="selectTotal">
+                                    <option value="success">Success</option>
+                                    <option value="unsuccess">UnSuccess</option>
+                                    <!-- Add more options as needed -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+               
+               
+                </div>
+            </div>
+        
+         
+    <!-- end of dropdown -->
+
+ <!-- 4cards -->
+ <div class="container pt-4 card-top card_frame mt-1">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-2">
+        <div class="col">
+            <div class="card details rounded shadow title">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <div class="col"><h6>Day TOTAL</h6></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase success">Success:</span></div>
+                        <div class="col"><span class="success">10254564</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase unsuccess">UnSuccess:</span></div>
+                        <div class="col"><span class="unsuccess">6454565</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card details rounded shadow title">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <div class="col"><h6>Week TOTAL</h6></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase success">Success:</span></div>
+                        <div class="col"><span class="success">10254564</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase unsuccess">UnSuccess:</span></div>
+                        <div class="col"><span class="unsuccess">6454565</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card details rounded shadow title">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <div class="col"><h6>Monthly TOTAL</h6></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase success">Success:</span></div>
+                        <div class="col"><span class="success">10254564</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase unsuccess">UnSuccess:</span></div>
+                        <div class="col"><span class="unsuccess">6454565</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="col">
+            <div class="card details rounded shadow title">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <div class="col"><h6>Sub TOTAL</h6></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase success">Success:</span></div>
+                        <div class="col"><span class="success">10254564</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><span class="text-uppercase unsuccess">UnSuccess:</span></div>
+                        <div class="col"><span class="unsuccess">6454565</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+               
+               
+                </div>
+            </div>
+        
+         <!-- end of cards -->
+
+         <!--graph show-->
+         <div class="container pt-4 card-top card_frame mt-1">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2">
+                <div class="col">
+                    <div class="card graph shadow" style="height: 380px; border-radius: 0.8em; ">
+                        <div class="card-header rounded-top">
+                            <div class="row">
+                                <div class="col"><h6>Bar Chart</h6></div>
+                            </div>
+                        </div>
+                        <div class="card-body" >
+                            <canvas  id="Chart1" ></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card graph shadow" style="height: auto; border-radius: 0.8em; ">
+                        <div class="card-header rounded-top">
+                            <div class="row">
+                                <div class="col"><h6>Doughnut Chart</h6></div>
+                            </div>
+                        </div>
+                        <div class="card-body" >
+                            <canvas  id="Chart2" ></canvas>
+                        </div>
+                    </div>
+                </div>
+
+          
+
+         <div class="col">
+            <div class="card graph shadow" style="height: auto; border-radius: 0.8em; ">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <div class="col"><h6>Pie Chart</h6></div>
+                    </div>
+                </div>
+                <div class="card-body" >
+                    <canvas  id="Chart4" ></canvas>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ </div>
+
+         
+         <!--end graph-->
+
+         <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0"></script>
+    
+         <script>
+           const ctx1 = document.getElementById('Chart1');
+         
+           new Chart(ctx1, {
+             type: 'bar',
+             data: {
+               labels: ['Total Requests', 'Loop Availability', 'Reserve Facility', 'Payment Reunded', 'Lead Created'],
+               datasets: [{
+                 label: '',
+                 data: [1000, 400, 300, 500, 200],
+                 backgroundColor: [
+                     'rgba(250, 65, 104, 1)',
+                     'rgba(255, 149, 43, 1)',
+                     'rgba(0, 222, 222, 1)',
+                     'rgba(21, 147, 232, 1)',
+                     'rgba(124, 59, 255, 1)'
+         ],
+                 borderWidth: 0
+               },{
+                 label: 'Not Available Loop for',
+                 data: [0, 200, 0, 0, 0],
+                 backgroundColor: [
+                     'rgba(255, 99, 132, 1)',
+                     'rgba(255, 190, 36, 1)',
+                     'rgba(255, 205, 86, 1)',
+                     'rgba(75, 192, 192, 1)',
+                     'rgba(54, 162, 235, 1)',
+         ],
+                 borderWidth: 0
+                 
+                 
+               }]
+             },
+       
+       
+         options: {
+             plugins: {
+       legend: {
+         onClick: null,
+         display: null
+       },
+       },
+         responsive: true,
+         scales: {
+           x: {ticks: {
+                 font: {
+                     size: 7 //this change the font size
+                     
+                 }
+             },
+         stacked: true,
+       },
+           y: {
+             stacked: true
+           }
+         }
+       }
+       
+           });
+         </script>
+
+<script>
+    const ctx2 = document.getElementById('Chart2');
+  
+    new Chart(ctx2, {
+      type: 'pie',
+      data: {
+        labels: ['Total Requests', 'Reserve Facility', 'Payment Reunded', 'Lead Created'],
+        datasets: [{
+          label: '',
+          data: [1000, 300, 500, 200],
+          backgroundColor: [
+              'rgba(250, 65, 104, 1)',
+              'rgba(0, 222, 222, 1)',
+              'rgba(21, 147, 232, 1)',
+              'rgba(124, 59, 255, 1)'
+  ],
+          borderWidth: 0
+        },{
+          label: 'Not Available Loop for',
+          data: [0, 0, 0, 0],
+          backgroundColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(255, 205, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(54, 162, 235, 1)',
+  ],
+          borderWidth: 0
+          
+          
+        }]
+      },
+
+
+  options: {
+      plugins: {
+legend: {
+  onClick: null,
+  display: null
+},
+},
+  responsive: true,
+  maintainAspectRatio: false, // Set to false to control aspect ratio independently
+    aspectRatio: 1,
+
+  }
+}
+
+    );
+  </script>
+
+  
+<script>
+    const ctx4 = document.getElementById('Chart4');
+  
+    new Chart(ctx4, {
+      type: 'pie',
+      data: {
+        labels: ['Total Requests', 'Reserve Facility', 'Payment Reunded', 'Lead Created'],
+        datasets: [{
+          label: '',
+          data: [1000, 300, 500, 200],
+          backgroundColor: [
+              'rgba(250, 65, 104, 1)',
+              'rgba(0, 222, 222, 1)',
+              'rgba(21, 147, 232, 1)',
+              'rgba(124, 59, 255, 1)'
+  ],
+          borderWidth: 0
+        },{
+          label: 'Not Available Loop for',
+          data: [0, 0, 0, 0],
+          backgroundColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(255, 205, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(54, 162, 235, 1)',
+  ],
+          borderWidth: 0
+          
+          
+        }]
+      },
+
+
+  options: {
+      plugins: {
+legend: {
+  onClick: null,
+  display: null
+},
+},
+  responsive: true,
+  maintainAspectRatio: false, // Set to false to control aspect ratio independently
+    aspectRatio: 1,
+
+  }
+}
+
+    );
+  </script>
+
+<!--linechart-->
+
+<div class="container pt-4 card-top card_frame mt-2">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1 g-3 mt-2">
+        <div class="col">
+            <div class="card graph shadow" style="height: auto; border-radius: 0.8em; ">
+                <div class="card-header rounded-top">
+                    <div class="row">
+                        <div class="col"><h6>Line chart</h6></div>
+                    </div>
+                </div>
+                <div class="card-body" >
+                    <canvas  id="Chart3" ></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--linechart end-->
+
+<!--linechart script-->
+
+ <script>
+    const ctx3 = document.getElementById('Chart3');
+  
+    new Chart(ctx3, {
+      type: 'line',  // Change type to 'line'
+      data: {
+        labels: ['Total Requests', 'Reserve Facility', 'Payment Refunded', 'Lead Created'],
+        datasets: [{
+          label: 'Dataset 1',  // Add a label for the first dataset
+          data: [1000, 300, 500, 200],
+          borderColor: 'rgba(250, 65, 104, 1)',  // Border color for the line
+          backgroundColor: 'rgba(250, 65, 104, 0.2)',  // Background color for the area under the line
+          borderWidth: 2,  // Set the border width
+          fill: true  // Fill the area under the line
+        },{
+          label: 'Dataset 2',  // Add a label for the second dataset
+          data: [0, 0, 0, 0],
+          borderColor: 'rgba(255, 99, 132, 1)',
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderWidth: 2,
+          fill: true
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            onClick: null,
+            display: null
+          },
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        aspectRatio: 1,
+      }
+    });
+</script>
+
+</body>
+</html>
